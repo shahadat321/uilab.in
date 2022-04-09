@@ -1,4 +1,4 @@
-import { Scene } from "react-scrollmagic";
+import { Scene } from "react-scrollmagic-r18";
 
 const Experience = () => {
     return(

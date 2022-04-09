@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Scene } from "react-scrollmagic";
+import { Scene } from "react-scrollmagic-r18";
+import Image from 'next/image';
 
 const Contact = () => {
   const [error, setError] = useState<null | string>(null);
@@ -81,7 +82,10 @@ const Contact = () => {
                             <div className="contact-col--item item-fluid text-center site-nominee">
                                 <a href="https://www.csswinner.com/details/shahadat-hussain-frontend-developer/15939" target="_blank" rel="noreferrer">
                                     <span>Site of the day nominated in:</span>
-                                    <img decoding="async" loading="lazy" src="/images/nominee-white-2.png" alt="Site of the day CSS Winner" title="Site of the day CSS Winner" />
+                                    {/* <img decoding="async" loading="lazy" src="/images/nominee-white-2.png" alt="Site of the day CSS Winner" title="Site of the day CSS Winner" /> */}
+
+                                    <Image layout="responsive" loading="lazy" src="/images/nominee-white-2.png" width="280" height="62" alt="Site of the day CSS Winner" title="Site of the day CSS Winner" />
+
                                 </a>
                             </div>
 
@@ -91,7 +95,13 @@ const Contact = () => {
                 <Scene classToggle="fade-up" reverse={true} offset={-500}>
                     <div className="contact-col contact--form fade-effect">
                         <div className="contact-col--item item-fluid text-center">
-                            <p className="contact-phone"><a href="https://wa.me/919910613200?text=Hi%20there,%20How%20are%20you%20doing?"> <img className="whatsapp-icon" src="./images/whatsapp.png" width="30" height="30" loading="lazy" alt="" /> +91-99106132<span className="is-desktop">00</span><span className="animate-text tel"><b>...00</b></span></a></p>
+                            <p className="contact-phone"><a href="https://wa.me/919910613200?text=Hi%20there,%20How%20are%20you%20doing?"> 
+                            {/* <img className="whatsapp-icon" src="./images/whatsapp.png" width="30" height="30" loading="lazy" alt="" /> */}
+
+                            <Image loading="lazy" className="whatsapp-icon" src="/images/whatsapp.png" alt="WhatsAPP" width="30" height="30" />
+                            
+                            
+                              +91-99106132<span className="is-desktop">00</span><span className="animate-text tel"><b>...00</b></span></a></p>
 
                             <p className="contact-email"><a href="mailto:shahadat.rockstar@gmail.com">shahadat.rock<span className="is-desktop">star</span><span className="animate-text"><b>...star</b></span>@<span className="animate-text--last">gmail.com</span></a></p>
 

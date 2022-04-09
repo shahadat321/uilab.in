@@ -1,4 +1,5 @@
-import { Scene } from "react-scrollmagic";
+import { Scene } from "react-scrollmagic-r18";
+import Image from 'next/image'
 
 const PortCard = (props:any) => {
     return(
@@ -11,7 +12,8 @@ const PortCard = (props:any) => {
                                 <source type="image/webp" srcSet={props.imgWEBP} />
                                 <source type="image/avif" srcSet={props.imgAVIF} />
                                 <source type="image/jpeg" srcSet={props.imgJPG} />
-                                <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" />
+                                {/* <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" /> */}
+                                <Image layout="responsive" loading="lazy" src={props.imgJPG} alt="Portfolio" width="495" height="495" />
                             </picture>
                             <figcaption className="work-overlay">
                                 <div className="work-overlay--content">

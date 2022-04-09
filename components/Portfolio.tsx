@@ -1,4 +1,4 @@
-import { Scene } from "react-scrollmagic";
+import { Scene } from "react-scrollmagic-r18";
 import Port from "./portAPI";
 import PortCard from "./PortCard";
 

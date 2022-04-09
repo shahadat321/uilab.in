@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-import { Controller } from "react-scrollmagic";
+import { Controller } from "react-scrollmagic-r18";
 
 import Header from '../components/header';
 import Banner from '../components/banner';

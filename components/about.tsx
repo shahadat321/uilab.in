@@ -1,4 +1,4 @@
-import { Scene } from "react-scrollmagic";
+import { Scene } from "react-scrollmagic-r18";
 
 const About = () => {
     return(
@@ -9,7 +9,7 @@ const About = () => {
                     <div className="section--about-content">
                         <div className="large">
                             <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
-                                <h4>I'm a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 10 years of great industry experience.</h4>
+                                <h4>I&apos;m a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 10 years of great industry experience.</h4>
                             </Scene>
                             <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
                                 <p>I have diverse experience as I have worked with agencies and brands dealing in different industries. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies. Each has its own set of challenges and learnings. This has enabled me to venture into unknown territories without much thought.</p>
