@@ -1,0 +1,55 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+/* Layout */
+$screen-xs: 575px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1024px;
+$screen-xl: 1280px;
+
+$screen-xxl: 1440px;
+$screen-xxxl: 1600px;
+$screen-large: 1920px;
+
+/* Typography */
+$font-stack-body: sans-serif;
+$font-stack-heading: sans-serif;
+$line-height-base: 1.45;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$large-font-size:             $font-size-base * 3 !default;
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+$font-size-small:             0.8750rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semi: 600;
+$font-weight-bold: 700;
+$font-weight-heading: 800;
+
+// Grays
+$gray-darker:           lighten(#000, 13.5%) !default; // #222
+$gray-dark:             lighten(#000, 20%) !default;   // #333
+$gray:                  lighten(#000, 33.5%) !default; // #555
+$gray-light:            lighten(#000, 50%) !default;   // #999
+$gray-lighter:          lighten(#000, 80%) !default; // #ccc
+$gray-lightest:         lighten(#000, 90%) !default; // #eee
+
+/* Colors */
+$base-color: #373b40;
+
+$primary-color: #64ffda;
+$secondary-color: #196AC8;
+
+$color-light: #8892b0;
+$color-dark: #0a192f;
+
+$color-text-light: #8892b0;
+$color-text-lighten: #ccd6f6;
+$color-text-dark: #0a192f;
