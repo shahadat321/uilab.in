@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Header from '../components/header';
 import Banner from '../components/banner';
 import About from '../components/about';
-import Portfolio from '../components/Portfolio';
+import Portfolio from '../components/portfolio';
 import Experience from '../components/experience';
 import Contact from '../components/contact';
 

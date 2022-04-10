@@ -1,7 +1,7 @@
 import { Scene } from "react-scrollmagic-r18";
 import Image from 'next/image';
 import Port from "./portAPI";
-import PortCard from "./PortCard";
+import PortCard from "./portCard";
 
 
 const Portfolio = () => {
