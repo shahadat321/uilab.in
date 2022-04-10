@@ -1,5 +1,5 @@
 import { Scene } from "react-scrollmagic-r18";
-import Image from 'next/image'
+import Image from 'next/image';
 
 const PortCard = (props:any) => {
     return(

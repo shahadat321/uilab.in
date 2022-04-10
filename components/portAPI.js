@@ -1,15 +1,15 @@
 const Port = [
-    {
-        id: 1,
-        href: "https://pdfsimpli.com/",
-        title: "PDFSimpli.com",
-        description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
+    // {
+    //     id: 1,
+    //     href: "https://pdfsimpli.com/",
+    //     title: "PDFSimpli.com",
+    //     description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
         
-        imgJPG: "/images/port-recent.jpg",
-        imgWEBP: "/images/webp/port-recent.webp",
-        imgAVIF: "/images/avif/port-recent.avif",
-        btnTitle: "PDFSimpli.com",
-    },
+    //     imgJPG: "/images/port-recent.jpg",
+    //     imgWEBP: "/images/webp/port-recent.webp",
+    //     imgAVIF: "/images/avif/port-recent.avif",
+    //     btnTitle: "PDFSimpli.com",
+    // },
     {
         id: 2,
         href: "https://www.thequint.com/",
