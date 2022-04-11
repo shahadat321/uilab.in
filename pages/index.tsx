@@ -1,7 +1,6 @@
 import { Controller } from "react-scrollmagic-r18";
 import type { NextPage } from 'next'
 import Head from 'next/head';
-import Image from 'next/image';
 
 import Header from '../components/header';
 import Banner from '../components/banner';
@@ -56,14 +55,13 @@ const Home: NextPage = () => {
         <link rel="apple-touch-icon" href="https://www.uilab.in/images/logo192.png" />
 
         {/* <!-- Google Analytics --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134427958-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN8829F5B2"></script>
         <script dangerouslySetInnerHTML={{__html:`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){
-            dataLayer.push(arguments);
-          }
+          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'UA-134427958-1');
+        
+          gtag('config', 'G-EN8829F5B2');
         `}} />
 
       </Head>
