@@ -33,15 +33,15 @@ const Home: NextPage = () => {
         <meta name="description" content="I have diverse experience as I have worked with agencies and brands dealing in different industries. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies. Each has its own set of challenges and learnings. This has enabled me to venture into unknown territories without much thought."/>
         <meta name="author" content="Shahadat Hussain" />
         <meta name="copyright" content="uilab" />
-        <link rel="canonical" href="https://uilab.in/" />
+        <link rel="canonical" href="https://www.uilab.in/" />
 
         {/* <!-- OG Tag --> */}
         <meta property="og:title" content="Shahadat Hussain - Front-end Developer From New Delhi India." />
         <meta property="og:site_name" content="uilab" />
-        <meta property="og:url" content="https://uilab.in/" />
+        <meta property="og:url" content="https://www.uilab.in/" />
         <meta property="og:description" content="I'm a front-end web developer who aims to combine the beauty of design with the latest technology." />
         <meta property="og:type" content="portfolio" />
-        <meta property="og:image" content="https://uilab.in/images/og.jpg" />
+        <meta property="og:image" content="https://www.uilab.in/images/og.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
 
@@ -50,10 +50,21 @@ const Home: NextPage = () => {
         <meta name="twitter:site" content="@shahadat15" />
         <meta name="twitter:title" content="Shahadat Hussain - Front-end Developer From New Delhi India." />
         <meta name="twitter:description" content="I'm a front-end web developer who aims to combine the beauty of design with the latest technology." />
-        <meta name="twitter:image" content="https://uilab.in/images/og.jpg" />
+        <meta name="twitter:image" content="https://www.uilab.in/images/og.jpg" />
 
-        <link rel="icon" href="https://uilab.in/images/favicon.ico" />
-        <link rel="apple-touch-icon" href="https://uilab.in/images/logo192.png" />
+        <link rel="icon" href="https://www.uilab.in/images/favicon.ico" />
+        <link rel="apple-touch-icon" href="https://www.uilab.in/images/logo192.png" />
+
+        {/* <!-- Google Analytics --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134427958-1"></script>
+        <script dangerouslySetInnerHTML={{__html:`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'UA-134427958-1');
+        `}} />
 
       </Head>
       <Controller>

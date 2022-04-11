@@ -106,7 +106,7 @@ const Contact = () => {
                             <p className="contact-email"><a href="mailto:shahadat.rockstar@gmail.com">shahadat.rock<span className="is-desktop">star</span><span className="animate-text"><b>...star</b></span>@<span className="animate-text--last">gmail.com</span></a></p>
 
                             <p className="contact-social"><a href="https://www.linkedin.com/in/shahadat-hussain-97256988/" target="_blank" rel="noreferrer">LinkedIn</a> <a href="https://github.com/shahadat321" target="_blank" rel="noreferrer">GitHub</a> <a href="https://twitter.com/shahadat15" target="_blank" rel="noreferrer">Twitter</a></p>
-                            <p className="copyright">© 2011-22 <a href="https://uilab.in/">UILab.in</a> All right reserved.</p>
+                            <p className="copyright">© 2011-22 <a href="https://www.uilab.in/">UILab.in</a> All right reserved.</p>
                         </div>
                     </div>
                 </Scene>
