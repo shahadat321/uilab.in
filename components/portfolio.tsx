@@ -61,7 +61,7 @@ const Portfolio = () => {
                         </Scene>
                         {/* {Port.map((data) => (<PortCard {...data} key={data.id} />))} */}
                         {data?.map(item => (
-                            <Scene classToggle="fade-up" reverse={true} offset={-300}>
+                            <Scene classToggle="fade-up" reverse={true} offset={-300} key={item.id}>
                                 <div className="work-thumbs--item fade-effect">
                                     <div className="hover-effect">
                                         <a href={item.href} target="_blank" rel="noreferrer nofollow">
