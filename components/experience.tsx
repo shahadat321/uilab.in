@@ -16,7 +16,7 @@ const Experience = () => {
                                 <h6>Jun 2019 - Present</h6>
                                 <h5>Tech Lead II (Front-end)</h5>
                                 <p><a href="https://worksimpli.io/" target="_blank" rel="noreferrer nofollow">WorkSimpli Software, LLC.</a></p>
-                                <p className="small"><strong>Technology:</strong> HTML5, CSS3, SCSS/SASS, JavaScript, React, Angular, JSON, Bootstrap, Azure and GitHub.</p>
+                                <p className="small"><strong>Technology:</strong> HTML5, CSS/SCSS, JavaScript, ReactJS, Angular, JSON, Bootstrap, Git and Azure.</p>
                             </div>
                         </Scene>
                         <Scene classToggle="left-effect" reverse={true} offset={-300}>
@@ -26,7 +26,7 @@ const Experience = () => {
                                 <h5>Sr. Front End Developer</h5>
                                 <p className="company-name"><a href="https://indecomm.com/" target="_blank" rel="noreferrer nofollow">Indecomm Global Services Pvt. Ltd.</a></p>
                                 <p className="product">Product: Quint Digital Media Limited</p>
-                                <p className="small"><strong>Technology:</strong> HTML5, CSS3, SCSS/SASS, JavaScript, React, JSON, Google API, Bootstrap and GitHub.</p>
+                                <p className="small"><strong>Technology:</strong> HTML5, CSS/SCSS, JavaScript, ReactJS, JSON, Google API, Bootstrap and GitHub.</p>
                             </div>
                         </Scene>
                         <Scene classToggle="left-effect" reverse={true} offset={-300}>
