@@ -1028,8 +1028,9 @@ body.nav-open {
                 display: block;
                 img {
                     opacity: 0.95;
+                    min-width: 101% !important;
                     @media (min-width: $screen-lg){
-                        opacity: 0.65;
+                        opacity: 0.85;
                     }
                 }
             }

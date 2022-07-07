@@ -2,19 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 const data = [
-  // {
-  //     id: 1,
-  //     href: "https://pdfsimpli.com/",
-  //     title: "PDFSimpli.com",
-  //     description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
-      
-  //     imgJPG: "/images/port-recent.jpg",
-  //     imgWEBP: "/images/webp/port-recent.webp",
-  //     imgAVIF: "/images/avif/port-recent.avif",
-  //     btnTitle: "PDFSimpli.com",
-  // },
-  {
-    id: 2,
+{
+    id: 1,
     href: "https://www.thequint.com/",
     title: "Quint Digital Media Limited",
     description: "Created component-based layout, JavaScript library ReactJS, Grids susy grids, CSS pre-processor SCSS/SASS.",
@@ -24,20 +13,8 @@ const data = [
     imgAVIF: "/images/avif/port-2.avif",
     btnTitle: "TheQuint.com",
 },
-
 {
-    id: 3,
-    href: "https://signsimpli.com/",
-    title: "SignSimpli.com",
-    description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
-
-    imgJPG: "/images/port-12.jpg",
-    imgWEBP: "/images/webp/port-12.webp",
-    imgAVIF: "/images/avif/port-12.avif",
-    btnTitle: "SignSimpli.com",
-},
-{
-    id: 4,
+    id: 2,
     href: "https://www.uilab.in/",
     title: "UILab.in",
     description: "Created component-based layout, JavaScript library ReactJS, CSS pre-processor SCSS, CSS Animations and GitHub.",
@@ -46,6 +23,28 @@ const data = [
     imgWEBP: "/images/webp/port-13.webp",
     imgAVIF: "/images/avif/port-13.avif",
     btnTitle: "UILab.in",
+},
+{
+    id: 3,
+    href: "https://pdfsimpli.com/",
+    title: "PDFSimpli.com",
+    description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
+    
+    imgJPG: "/images/port-pdf.jpg",
+    imgWEBP: "/images/webp/port-pdf.webp",
+    imgAVIF: "/images/avif/port-pdf.avif",
+    btnTitle: "PDFSimpli.com",
+},
+{
+    id: 4,
+    href: "https://signsimpli.com/",
+    title: "SignSimpli.com",
+    description: "Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.",
+
+    imgJPG: "/images/port-12.jpg",
+    imgWEBP: "/images/webp/port-12.webp",
+    imgAVIF: "/images/avif/port-12.avif",
+    btnTitle: "SignSimpli.com",
 },
 {
     id: 5,
@@ -148,6 +147,17 @@ const data = [
 },
 {
     id: 14,
+    href: "https://www.thequint.com/quintlab/jal-mahotsav/",
+    title: "Jal Mahotsav - The Quint",
+    description: "Developed a full screen parallax microsite for Jal Mahotsav is the ultimate watercation.",
+
+    imgJPG: "/images/port-jal-mahotsav.jpg",
+    imgWEBP: "/images/webp/port-jal-mahotsav.webp",
+    imgAVIF: "/images/avif/pport-jal-mahotsav.avif",
+    btnTitle: "PhoneLifeBalance",
+},
+{
+    id: 15,
     href: "https://www.thequint.com/quintlab/ampstories/2-point-0-movie-interesting-facts/",
     title: "About 2.0 Movie - AMP Story",
     description: "Develop component-based layout,  Card based layout, Accelerated Mobile Pages (AMP).",
@@ -158,7 +168,7 @@ const data = [
     btnTitle: "About 2.0 Movie - AMP Story",
 },
 {
-    id: 15,
+    id: 16,
     href: "https://www.thequint.com/quintlab/what-sanju-missed-about-sanjay-dutts-life/",
     title: "Sanjay Dutt Life - AMP Story",
     description: "Develop component-based layout,  Card based layout, Accelerated Mobile Pages (AMP).",

@@ -35,20 +35,20 @@ const Portfolio = () => {
                         <Scene classToggle="fade-up" reverse={true} offset={-300}>
                             <div className="work-thumbs--item fade-effect">
                                 <div className="hover-effect">
-                                    <a href="https://pdfsimpli.com/" target="_blank" rel="noreferrer nofollow">
+                                    <a href="https://test.resumebuild.com/app/introduction" target="_blank" rel="noreferrer nofollow">
                                         <figure>
                                             <picture>
-                                                <source type="image/webp" srcSet="/images/webp/port-recent.webp" />
-                                                <source type="image/avif" srcSet="/images/avif/port-recent.avif" />
-                                                <source type="image/jpeg" srcSet="/images/port-recent.jpg" />
+                                                <source type="image/webp" srcSet="/images/webp/port-recent-new.webp" />
+                                                <source type="image/avif" srcSet="/images/avif/port-recent-new.avif" />
+                                                <source type="image/jpeg" srcSet="/images/port-recent-new.jpg" />
                                                 {/* <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" /> */}
-                                                <Image layout="responsive" loading="lazy" src="/images/port-recent.jpg" alt="Portfolio" width="1068" height="600" />
+                                                <Image layout="responsive" loading="lazy" src="/images/port-recent-new.jpg" alt="Portfolio" width="1068" height="600" />
                                             </picture>
                                             <figcaption className="work-overlay">
                                                 <div className="work-overlay--content">
-                                                    <h4 className="work-item--text item-title">PDFSimpli.com</h4>
-                                                    <h5 className="work-item--text item-description">Created component-based layout, ASP.NET MVC framework, Bootstrap, CSS pre-processor SCSS/SASS and Azure.</h5>
-                                                    <button className="work-item--text item-btn" type="button" title="PDFSimpli.com">View Project</button>
+                                                    <h4 className="work-item--text item-title">ResumeBuild.com</h4>
+                                                    <h5 className="work-item--text item-description">Created component-based layout, JavaScript library ReactJS, React-Bootstrap, CSS pre-processor SCSS/SASS and Azure.</h5>
+                                                    <button className="work-item--text item-btn" type="button" title="ResumeBuild.com">View Project</button>
                                                 </div>
                                             </figcaption>
                                         </figure>
