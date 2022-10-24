@@ -7,8 +7,8 @@ const data = [
     description: "ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
     href: "https://resumebuild.com/app/introduction",
     imgJPG: "/images/port-resume.jpg",
-    imgWEBP: "/images/webp/port-2.webp",
-    imgAVIF: "/images/avif/port-2.avif",
+    imgWEBP: "/images/webp/port-resume.webp",
+    imgAVIF: "/images/avif/port-resume.avif",
     btnTitle: "ResumeBuild.com",
 },
 {
@@ -34,8 +34,8 @@ const data = [
     description: "HTML5, CSS3, BEM, JavaScript, jQuery, JSON, CSS Animations, Git and GitHub.",
     href: "https://www.thequint.com/the-quint-lab/mahatma-gandhi-jayanti-celebrations-2nd-october-chat-app",
     imgJPG: "/images/port-chat.jpg",
-    imgWEBP: "/images/webp/port-2.webp",
-    imgAVIF: "/images/avif/port-2.avif",
+    imgWEBP: "/images/webp/port-chat.webp",
+    imgAVIF: "/images/avif/port-chat.avif",
     btnTitle: "TheQuint.com",
 },
 {

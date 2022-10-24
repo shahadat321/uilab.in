@@ -38,9 +38,9 @@ const Portfolio = () => {
                                     <a href="https://test-sso.pdfsimpli.com/app/dashboard/" target="_blank" rel="noreferrer nofollow">
                                         <figure>
                                             <picture>
-                                                <source type="image/webp" srcSet="/images/webp/port-recent-new.webp" />
-                                                <source type="image/avif" srcSet="/images/avif/port-recent-new.avif" />
-                                                <source type="image/jpeg" srcSet="/images/port-recent-new.jpg" />
+                                                <source type="image/webp" srcSet="/images/webp/recent-dashboard.webp" />
+                                                <source type="image/avif" srcSet="/images/avif/recent-dashboard.avif" />
+                                                <source type="image/jpeg" srcSet="/images/recent-dashboard.jpg" />
                                                 {/* <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" /> */}
                                                 <Image layout="responsive" loading="lazy" src="/images/recent-dashboard.jpg" alt="Portfolio" width="1068" height="600" />
                                             </picture>
