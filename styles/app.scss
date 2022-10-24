@@ -1059,8 +1059,8 @@ body.nav-open {
                         content: "";
                         transform: translateY(-50%);
                         max-width: 500px;
-                        padding: 20px 20px 20px 60px;
-                        color: $color-text-light;
+                        padding: 20px 20px 20px 40px;
+                        color: $color-text-lighter;
                         
                     }
                     @media (min-width: $screen-xxxl){
@@ -1077,26 +1077,28 @@ body.nav-open {
                     .item-title {
                         font-size: 0.9375rem;
                         margin-bottom: 0.125rem;
+                        font-weight: $font-weight-semi;
                         @media (min-width: $screen-sm){
                             font-size: 0.9375rem;
                             margin-bottom: 0.25rem;
                         }
                         @media (min-width: $screen-lg){
-                            font-size: 1rem;
+                            font-size: 0.9375rem;
                             margin-bottom: 0.75rem;
+                            font-weight: $font-weight-medium;
                         }
                     }
                     .item-description {
                         font-size: 0.9375rem;
                         margin-bottom: 0;
-                        line-height: 125%;
+                        line-height: 135%;
                         font-weight: $font-weight-medium;
                         @media (min-width: $screen-sm){
                             font-size: 0.9375rem;
                         }
                         @media (min-width: $screen-lg){
                             margin-bottom: 1.125rem;
-                            font-size: 1.125rem;
+                            font-size: 1rem;
                             font-weight: $font-weight-semi;
                         }
                     }
@@ -1245,6 +1247,10 @@ body.nav-open {
                 &.small {
                     opacity: 0.9;
                     font-size: 0.8750rem;
+                    strong {
+                        font-weight: $font-weight-medium;
+                        color: $color-text-lighter;
+                    }
                 }
             }
             a {
