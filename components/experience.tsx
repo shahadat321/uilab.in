@@ -19,7 +19,7 @@ const Experience = () => {
                                 <p className="small"><strong>Technology: </strong> 
                                 {/* HTML5, CSS/SCSS, JavaScript, ReactJS, Angular, JSON, Bootstrap, Git and Azure. */}
 
-                                ReactJS, JavaScript, JSON, HTML5, CSS3, SCSS/SASS, TailwindCSS, Bootstrap, Git and Azure DevOps.
+                                ReactJS, JavaScript, JSON, HTML5, CSS3, SCSS/SASS, TailwindCSS, TailwindUI, Styled Components, Bootstrap, Git, GitHub and Azure DevOps.
                                 {/* ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps. */}
                                 
                                 </p>
