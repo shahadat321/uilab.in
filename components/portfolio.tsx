@@ -35,7 +35,7 @@ const Portfolio = () => {
                         <Scene classToggle="fade-up" reverse={true} offset={-300}>
                             <div className="work-thumbs--item fade-effect">
                                 <div className="hover-effect">
-                                    <a href="https://test-sso.pdfsimpli.com/app/dashboard/" target="_blank" rel="noreferrer nofollow">
+                                    <a href="https://signsimpli.com/app/dashboard/" target="_blank" rel="noreferrer nofollow">
                                         <figure>
                                             <picture>
                                                 <source type="image/webp" srcSet="/images/webp/recent-dashboard.webp" />
@@ -47,7 +47,7 @@ const Portfolio = () => {
                                             <figcaption className="work-overlay">
                                                 <div className="work-overlay--content">
                                                     <h4 className="work-item--text item-title">Dashboard - WorkSimpli Products</h4>
-                                                    <h5 className="work-item--text item-description">ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, Git and Azure DevOps.</h5>
+                                                    <h5 className="work-item--text item-description">ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, TailwindUI, Git and Azure DevOps.</h5>
                                                     <button className="work-item--text item-btn" type="button" title="ResumeBuild.com">View Project</button>
                                                 </div>
                                             </figcaption>
