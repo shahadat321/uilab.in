@@ -12,6 +12,7 @@
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-icons": "^4.12.0",
     "react-scrollmagic-r18": "^1.0.3",
     "sass": "^1.49.11"
   },
