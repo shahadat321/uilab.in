@@ -27,7 +27,7 @@ const About = () => {
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
                 <p className="social-list first contact-social">
                   <FaLinkedin />
-                  <a href="https://www.linkedin.com/in/shahadat-hussain-97256988/" target="_blank">
+                  <a href="https://www.linkedin.com/in/shahadat-hussain-97256988/" target="_blank" rel="noreferrer">
                     https://www.linkedin.com/in/shahadat-hussain-97256988/
                   </a>
                 </p>
@@ -35,7 +35,7 @@ const About = () => {
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
                 <p className="social-list contact-social">
                   <FaGithub />
-                  <a href="https://github.com/shahadat321" target="_blank">
+                  <a href="https://github.com/shahadat321" target="_blank" rel="noreferrer">
                     https://github.com/shahadat321
                   </a>
                 </p>
