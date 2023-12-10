@@ -94,7 +94,7 @@ const Banner = () => {
             <div className="technologies">
               <ul>
                 {techLogos.map((index) => (
-                  <li>
+                  <li key={index.name}>
                     <index.icon className={"flex-shrink-0 " + index.brandsColor} aria-hidden="true" />
                     <span className="tech-text">{index.name}</span>
                   </li>
