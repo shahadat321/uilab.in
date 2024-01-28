@@ -38,14 +38,23 @@ const Portfolio = () => {
                   <a href="https://resumebuild.com/app/introduction/" target="_blank" rel="noreferrer nofollow">
                     <figure>
                       <picture>
-                        <source type="image/webp" srcSet="/images/webp/port-recent-new.webp" />
-                        <source type="image/avif" srcSet="/images/avif/port-recent-new.avif" />
-                        <source type="image/jpeg" srcSet="/images/port-recent-new.jpg" />
+                        <source
+                          type="image/webp"
+                          srcSet={process.env.NEXT_PUBLIC_IMAGES_API + "/images/webp/port-recent-new.webp"}
+                        />
+                        <source
+                          type="image/avif"
+                          srcSet={process.env.NEXT_PUBLIC_IMAGES_API + "/images/avif/port-recent-new.avif"}
+                        />
+                        <source
+                          type="image/jpeg"
+                          srcSet={process.env.NEXT_PUBLIC_IMAGES_API + "/images/port-recent-new.jpg"}
+                        />
                         {/* <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" /> */}
                         <Image
                           layout="responsive"
                           loading="lazy"
-                          src="/images/port-recent-new.jpg"
+                          src={process.env.NEXT_PUBLIC_IMAGES_API + "/images/port-recent-new.jpg"}
                           alt="Portfolio"
                           width="1068"
                           height="600"
