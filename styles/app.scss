@@ -1866,3 +1866,51 @@ body.nav-open {
     }
   }
 }
+
+.exp--link {
+  a {
+    line-height: 40px;
+    color: $color-dark;
+    display: inline-flex;
+    // overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+    &:after {
+      bottom: 2px;
+      content: "";
+      height: 4px;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      width: 100%;
+      background-color: $color-dark;
+      @include animation(anchor-underline 0.5s ease-in-out forwards running);
+      @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 1s);
+    }
+    .img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      translate: -50% -50%;
+      pointer-events: none;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      transition: width 0.5s;
+      z-index: 1;
+    }
+    &:hover {
+      color: #000;
+      &::after {
+        opacity: 1;
+        @include animation(anchor-hover-underline 0.5s ease-in-out forwards running);
+        @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 0.5s);
+      }
+      .img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { Scene } from "react-scrollmagic-r18";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -17,11 +18,42 @@ const About = () => {
                 </h4>
               </Scene>
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
-                <p>
+                <p className="exp--link">
                   I have diverse experience as I have worked with agencies and brands dealing in different industries.
-                  This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising
-                  agencies. Each has its own set of challenges and learnings. This has enabled me to venture into
-                  unknown territories without much thought.
+                  This includes{" "}
+                  <a href="">
+                    Enterprise software companies <img className="img" src="/images/port-2.jpg" alt="" />
+                  </a>
+                  <a href="">
+                    Enterprise software companies <img className="img" src="/images/port-3.jpg" alt="" />
+                  </a>
+                  ,{" "}
+                  {/* <a href="">
+                    eCommerce <Image loading="lazy" className="img" src="/images/port-3.jpg" alt="WhatsAPP" />
+                  </a>
+                  ,{" "}
+                  <a href="">
+                    Healthcare <Image loading="lazy" className="img" src="/images/port-4.jpg" alt="WhatsAPP" />
+                  </a>
+                  ,{" "}
+                  <a href="">
+                    Media houses <Image loading="lazy" className="img" src="/images/port-5.jpg" alt="WhatsAPP" />
+                  </a>
+                  ,{" "}
+                  <a href="">
+                    AMP Stories <Image loading="lazy" className="img" src="/images/port-6.jpg" alt="WhatsAPP" />
+                  </a>
+                  ,{" "}
+                  <a href="">
+                    Branding <Image loading="lazy" className="img" src="/images/port-7.jpg" alt="WhatsAPP" />
+                  </a>{" "}
+                  and{" "}
+                  <a href="">
+                    Advertising agencies{" "}
+                    <Image loading="lazy" className="img" src="/images/port-8.jpg" alt="WhatsAPP" />
+                  </a> */}
+                  . Each has its own set of challenges and learnings. This has enabled me to venture into unknown
+                  territories without much thought.
                 </p>
               </Scene>
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
