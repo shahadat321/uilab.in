@@ -1,6 +1,7 @@
 import { Scene } from "react-scrollmagic-r18";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Image from "next/image";
+import HoverImage from "./HoverImage";
 
 const About = () => {
   return (
@@ -21,12 +22,9 @@ const About = () => {
                 <p className="exp--link">
                   I have diverse experience as I have worked with agencies and brands dealing in different industries.
                   This includes{" "}
-                  <a href="">
-                    Enterprise software companies <img className="img" src="/images/port-2.jpg" alt="" />
-                  </a>
-                  <a href="">
-                    Enterprise software companies <img className="img" src="/images/port-3.jpg" alt="" />
-                  </a>
+                  <HoverImage title="Enterprise software companies" image="/images/port-2.jpg" />
+                  <HoverImage title="eCommerce" image="/images/port-3.jpg" />
+                  <HoverImage title="Healthcare" image="/images/port-4.jpg" />
                   ,{" "}
                   {/* <a href="">
                     eCommerce <Image loading="lazy" className="img" src="/images/port-3.jpg" alt="WhatsAPP" />
