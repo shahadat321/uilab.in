@@ -43,7 +43,7 @@ const Portfolio = () => {
               {/* <img loading="eager" src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/6740f422caf5c6dee90981b0_Frame%201413372376.avif" alt="" className="bg-img is-video" /> */}
               {/* <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" /> */}
               <Image
-                layout="responsive"
+                // layout="responsive"
                 loading="lazy"
                 src="/images/dash.jpg"
                 alt="Portfolio"
