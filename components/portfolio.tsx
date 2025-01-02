@@ -1,5 +1,6 @@
 import { Scene } from "react-scrollmagic-r18";
 import { useState, useEffect } from "react";
+import { HiArrowsPointingOut } from "react-icons/hi2";
 import Image from "next/image";
 // import Port from "./portAPI";
 // import PortCard from "./portCard";
@@ -30,9 +31,42 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="section section--dark section--work">
       <div className="wrapper">
-        <div className="wrapper--push work-push-up">
+        <div className="wrapper--push work-push-up" style={{padding: "0"}}>
+
+          
+          <div className="port-recent">
+            <div className="port-recent--box">
+              <div className="port-recent--box-wrap">
+                <div className="port-recent--border-animation"></div>
+                <div className="port-recent--border-animation"></div>
+              </div>
+              {/* <img loading="eager" src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/6740f422caf5c6dee90981b0_Frame%201413372376.avif" alt="" className="bg-img is-video" /> */}
+              <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" />
+            </div>
+          </div>
+
+          <Scene classToggle="fade-up" reverse={true} offset={-300}>
+            <div className="fade-effect">
+              <div style={{paddingTop: "50px"}}>
+                <div className="text-center fade-effect fade-up">
+                  <h3 className="tagline tagline--long tagline--light">About</h3>
+                  <h3 className="about-sub-heading">I'm a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies.</h3>
+                </div>
+              </div>
+              
+              <div className="dividerline">
+                <span className="dividerline-left"></span>
+                {/* <img src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/66c89c41b01a092340805af7_Star%204.svg" loading="lazy" alt="" className="dividerline-icon" /> */}
+                <HiArrowsPointingOut className="w-24 h-24 dividerline-icon" style={{width:"40px"}} />
+                <span className="dividerline-right"></span>
+              </div>
+            </div>
+          </Scene>
+
+
+
           <div className="work-thumbs">
-            <Scene classToggle="fade-up" reverse={true} offset={-300}>
+            {/* <Scene classToggle="fade-up" reverse={true} offset={-300}>
               <div className="work-thumbs--item fade-effect">
                 <div className="hover-effect">
                   <a href="https://resumebuild.com/app/introduction/" target="_blank" rel="noreferrer nofollow">
@@ -40,9 +74,9 @@ const Portfolio = () => {
                       <picture>
                         <source type="image/webp" srcSet="/images/webp/port-recent-new.webp" />
                         <source type="image/avif" srcSet="/images/avif/port-recent-new.avif" />
-                        <source type="image/jpeg" srcSet="/images/port-recent-new.jpg" />
+                        <source type="image/jpeg" srcSet="/images/port-recent-new.jpg" /> */}
                         {/* <img decoding="async" loading="lazy" src={props.imgJPG} alt="Portfolio" /> */}
-                        <Image
+                        {/* <Image
                           layout="responsive"
                           loading="lazy"
                           src="/images/port-recent-new.jpg"
@@ -71,7 +105,7 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </Scene>
+            </Scene> */}
             {/* {Port.map((data) => (<PortCard {...data} key={data.id} />))} */}
             {data?.map((item) => (
               <Scene classToggle="fade-up" reverse={true} offset={-300} key={item.title}>

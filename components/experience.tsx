@@ -25,8 +25,9 @@ const Experience = () => {
                 <p className="small">
                   <strong>Technology: </strong>
                   {/* HTML5, CSS/SCSS, JavaScript, ReactJS, Angular, JSON, Bootstrap, Git and Azure. */}
-                  ReactJS, JavaScript, JSON, HTML5, CSS3, SCSS/SASS, TailwindCSS, TailwindUI, Styled Components,
-                  Bootstrap, Git, GitHub and Azure DevOps.
+                  HTML5, CSS3, ReactJS, NextJS, Rest API, WordPress, JavaScript, jQuery, SASS/LESS, Styled Components, TailwindCSS, Bootstrap, GitHub Azure DevOps and Pipelines.
+                  {/* ReactJS, JavaScript, JSON, HTML5, CSS3, SCSS/SASS, TailwindCSS, TailwindUI, Styled Components,
+                  Bootstrap, Git, GitHub and Azure DevOps. */}
                   {/* ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps. */}
                 </p>
               </div>
@@ -47,7 +48,8 @@ const Experience = () => {
                 <p className="small">
                   <strong>Technology: </strong>
                   {/* HTML5, CSS/SCSS, JavaScript, ReactJS, JSON, Google API, Bootstrap and GitHub. */}
-                  ReactJS, JavaScript, JSON, Google API, HTML5, CSS3, SCSS/SASS, Bootstrap and GitHub.
+                  {/* ReactJS, JavaScript, JSON, Google API, HTML5, CSS3, SCSS/SASS, Bootstrap and GitHub. */}
+                  HTML5, CSS3, ReactJS, Rest API, Google API, WordPress, JavaScript, jQuery, SASS/LESS, Styled Components, Bootstrap and GitHub.
                 </p>
               </div>
             </Scene>
@@ -64,8 +66,8 @@ const Experience = () => {
                   </a>
                 </p>
                 <p className="small">
-                  <strong>Technology:</strong> HTML5, CSS3, SCSS/SASS, JavaScript, jQuery, WodrPress, Bootstrap and
-                  GitHub.
+                  <strong>Technology:</strong> HTML5, CSS3, ReactJS, Rest API, Google API, WordPress, JavaScript, jQuery, SASS/LESS, Styled Components, Bootstrap and GitHub.
+                  {/* HTML5, CSS3, SCSS/SASS, JavaScript, jQuery, WodrPress, Bootstrap and GitHub. */}
                 </p>
               </div>
             </Scene>
