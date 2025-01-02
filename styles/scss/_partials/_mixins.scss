@@ -205,6 +205,22 @@ $screen-lg:1199px;
 }
 
 
+
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 @-webkit-keyframes ani-ttb {
   0% {
     opacity: 0;

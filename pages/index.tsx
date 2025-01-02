@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         <main>
           <Header />
           <Banner />
-          <About />
+          {/* <About /> */}
           <Portfolio />
           <Experience />
           <Contact />

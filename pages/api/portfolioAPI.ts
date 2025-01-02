@@ -3,12 +3,12 @@ import type { NextApiRequest, NextApiResponse } from "next";
 
 const data = [
   {
-    title: "Dashboard - WorkSimpli Products",
-    description: "ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, TailwindUI, Git and Azure DevOps.",
-    href: "https://signsimpli.com/app/dashboard/",
-    imgJPG: "/images/port-dashboard.jpg",
-    imgWEBP: "/images/webp/port-dashboard.webp",
-    imgAVIF: "/images/avif/port-dashboard.avif",
+    title: "ResumeBuild.com",
+    description: "ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
+    href: "https://resumebuild.com/app/introduction",
+    imgJPG: "/images/port-resume.jpg",
+    imgWEBP: "/images/webp/port-resume.webp",
+    imgAVIF: "/images/avif/port-resume.avif",
     btnTitle: "ResumeBuild.com",
   },
   {
