@@ -86,7 +86,7 @@ const Banner = () => {
             <span className="tag-line">Hi, my name is</span>
             <h1 className="main-headline">Shahadat Hussain.</h1>
             {/* <h1 className="main-headline">What was Impossible Technology makes Possible.</h1> */}
-            <h2 className="sub-headline">I&apos;m a front-end developer.</h2>
+            <h2 className="sub-headline">I'm a front-end developer.</h2>
             <h3 className="hero-content">
               I build interactive website that run across <span>platforms &amp; devices.</span>
             </h3>
