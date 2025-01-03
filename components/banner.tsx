@@ -147,7 +147,7 @@ const Banner = () => {
                   </div>
               </div> */}
 
-              <div className="btn-effect" style={{position:"relative", zIndex:"99"}}>
+              <div className="btn-effect">
                 <div className="btn-effect-point">
                   <a href="https://www.linkedin.com/in/shahadat-hussain-97256988/" target="_blank" rel="noreferrer noopener" className="btn-effect-link">
                     <span>Know More</span>
