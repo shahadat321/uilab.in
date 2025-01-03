@@ -11,7 +11,7 @@ const About = () => {
             <div className="large">
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
                 <h4>
-                I&apos;m a front-end web developer who aims to combine the beauty of design with the latest
+                I am a front-end web developer who aims to combine the beauty of design with the latest
                   technology. Training myself every day and pushing my own limits with 12 years of great industry
                   experience.
                 </h4>

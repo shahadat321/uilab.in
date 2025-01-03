@@ -41,7 +41,16 @@ const Portfolio = () => {
                 <div className="port-recent--border-animation"></div>
               </div>
               {/* <img loading="eager" src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/6740f422caf5c6dee90981b0_Frame%201413372376.avif" alt="" className="bg-img is-video" /> */}
-              <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" />
+              {/* <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" /> */}
+              <Image
+                // layout="responsive"
+                loading="lazy"
+                src="/images/dash.jpg"
+                alt="Portfolio"
+                width="1188"
+                height="743"
+                className="bg-img is-video"
+              />
             </div>
           </div>
 
@@ -50,7 +59,7 @@ const Portfolio = () => {
               <div style={{paddingTop: "50px"}}>
                 <div className="text-center fade-effect fade-up">
                   <h3 className="tagline tagline--long tagline--light">About</h3>
-                  <h3 className="about-sub-heading">I'm a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies.</h3>
+                  <h3 className="about-sub-heading">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies.</h3>
                 </div>
               </div>
               
