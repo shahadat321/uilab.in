@@ -19,13 +19,26 @@ const About = () => {
                 </h4>
               </Scene>
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>
-                <p className="exp--link">
+                <p className="img-new">
+                  {/* I have diverse experience as I have worked with agencies and brands dealing in different industries.
+                  This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising
+                  agencies. Each has its own set of challenges and learnings. This has enabled me to venture into
+                  unknown territories without much thought. */}
                   I have diverse experience as I have worked with agencies and brands dealing in different industries.
-                  This includes{" "}
+                  This includes <HoverImage title="Enterprise software companies" image="/images/port-2.jpg" />,{" "}
+                  <HoverImage title="eCommerce" image="/images/port-3.jpg" />,{" "}
+                  <HoverImage title="Healthcare" image="/images/port-4.jpg" />,{" "}
+                  <HoverImage title="Media houses" image="/images/port-5.jpg" />,{" "}
+                  <HoverImage title="Branding" image="/images/port-6.jpg" /> and{" "}
+                  <HoverImage title="Advertising agencies" image="/images/port-7.jpg" />. Each has its own set of
+                  challenges and learnings. This has enabled me to venture into unknown territories without much
+                  thought.
+                  {/* I have diverse experience as I have worked with agencies and brands dealing in different industries.
+                  This includes
                   <HoverImage title="Enterprise software companies" image="/images/port-2.jpg" />
                   <HoverImage title="eCommerce" image="/images/port-3.jpg" />
                   <HoverImage title="Healthcare" image="/images/port-4.jpg" />
-                  ,{" "}
+                  ,{" "} */}
                   {/* <a href="">
                     eCommerce <Image loading="lazy" className="img" src="/images/port-3.jpg" alt="WhatsAPP" />
                   </a>
@@ -50,8 +63,8 @@ const About = () => {
                     Advertising agencies{" "}
                     <Image loading="lazy" className="img" src="/images/port-8.jpg" alt="WhatsAPP" />
                   </a> */}
-                  . Each has its own set of challenges and learnings. This has enabled me to venture into unknown
-                  territories without much thought.
+                  {/* . Each has its own set of challenges and learnings. This has enabled me to venture into unknown
+                  territories without much thought. */}
                 </p>
               </Scene>
               <Scene classToggle="scroll-effect" reverse={true} offset={-300}>

@@ -946,7 +946,7 @@ body.nav-open {
           font-size: 1.5rem;
           line-height: 130%;
           @media (min-width: $screen-xs) {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
           }
           @media (min-width: $screen-xxl) {
             // font-size: clamp(1.65rem, 3vw, 2rem);
@@ -1866,49 +1866,34 @@ body.nav-open {
     }
   }
 }
-
-.exp--link {
-  a {
-    line-height: 40px;
-    color: $color-dark;
-    display: inline-flex;
-    // overflow: hidden;
-    position: relative;
-    text-decoration: none;
-    vertical-align: bottom;
-    &:after {
-      bottom: 2px;
-      content: "";
-      height: 4px;
-      left: 0;
-      opacity: 0;
-      position: absolute;
-      width: 100%;
-      background-color: $color-dark;
-      @include animation(anchor-underline 0.5s ease-in-out forwards running);
-      @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 1s);
+.img-new a {
+  line-height: 40px;
+  color: $color-dark;
+  display: inline-flex;
+  // overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  vertical-align: bottom;
+  letter-spacing: -0.15px;
+  .img {
+    position: absolute;
+    translate: -50% -50%;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1;
+  }
+  &:hover {
+    color: #000;
+    &::after {
+      opacity: 1;
+      @include animation(anchor-hover-underline 0.5s ease-in-out forwards running);
+      @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 0.5s);
     }
-
     .img {
-      position: absolute;
-      translate: -50% -50%;
-      pointer-events: none;
-      width: 0;
-      height: 0;
-      transition: width 0.5s, height 0.5s;
-      z-index: -1;
-    }
-    &:hover {
-      color: #000;
-      &::after {
-        opacity: 1;
-        @include animation(anchor-hover-underline 0.5s ease-in-out forwards running);
-        @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 0.5s);
-      }
-      .img {
-        width: 300px;
-        height: 300px;
-      }
+      width: 300px;
+      height: 300px;
     }
   }
 }
