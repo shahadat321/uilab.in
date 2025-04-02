@@ -41,16 +41,32 @@ const Portfolio = () => {
                 <div className="port-recent--border-animation"></div>
               </div>
               {/* <img loading="eager" src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/6740f422caf5c6dee90981b0_Frame%201413372376.avif" alt="" className="bg-img is-video" /> */}
-              {/* <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" /> */}
-              <Image
-                // layout="responsive"
+              <figure>
+                <picture>
+                  <img decoding="async" loading="lazy" src="/images/dash.jpg" alt="Portfolio" className="bg-img is-video" />
+                </picture>
+                <figcaption className="work-overlay">
+                  <div className="work-overlay--content">
+                    <h4 className="work-item--text item-title">Dashboard</h4>
+                    <h5 className="work-item--text item-description">
+                      ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, HeadlessUI, Heroicons Git and Azure DevOps.
+                    </h5>
+                    <a href="https://quickwerx.com/app/dashboard/" target="_blank" className="work-item--text item-btn" type="button" title="Dashboard" style={{textDecoration: "none"}}>
+                      View Project
+                    </a>
+                  </div>
+                </figcaption>
+              </figure>
+              {/* <Image
+                layout="responsive"
                 loading="lazy"
                 src="/images/dash.jpg"
                 alt="Portfolio"
                 width="1188"
                 height="743"
                 className="bg-img is-video"
-              />
+              /> */}
+
             </div>
           </div>
 
