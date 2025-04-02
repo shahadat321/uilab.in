@@ -654,14 +654,14 @@ body.nav-open {
     font-size: 1.675rem;
   }
   @media (min-width: $screen-md) {
-    padding: 5px 75px;
+    padding: 5px 25px;
   }
 }
-.hero-banner .sub-heading span {
-  @media (min-width:$screen-lg) {
-    display: block;
-  }
-}
+// .hero-banner .sub-heading span {
+//   @media (min-width:$screen-lg) {
+//     display: block;
+//   }
+// }
 .main-heading,
 .sub-heading,
 .hero-tech ul li,
@@ -2175,6 +2175,135 @@ body.nav-open {
       padding: 1.25rem;
       border-radius: 1.5rem;
     }
+
+    figure {
+      margin: 0;
+      display: block;
+      position: relative;
+      img {
+        opacity: 0.95;
+        min-width: 100% !important;
+        @media (min-width: $screen-lg) {
+          opacity: 0.85;
+        }
+      }
+      .work-overlay {
+        @media (min-width: $screen-lg) {
+          text-align: center;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          opacity: 0;
+          @include transition(all 0.5s ease-in-out);
+          background-color: rgba($color: $color-dark, $alpha: 0.95);
+          border-radius: 1.4rem;
+          // box-shadow: 0 0 0 2px var(--box-dark-blue);
+          // -webkit-backdrop-filter: blur(20px);
+          box-shadow: inset 0px 0 21px -13px var(--gradient-first-2);
+          
+        }
+        &--content {
+          margin: 0 auto;
+          padding: 20px 35px 15px 10px;
+          color: $color-light;
+          font-weight: $font-weight-light;
+          @media (min-width: $screen-lg) {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            content: "";
+            transform: translateY(-50%);
+            max-width: 500px;
+            padding: 20px 20px 20px 40px;
+            color: $color-text-lighter;
+          }
+          @media (min-width: $screen-xxxl) {
+            width: 80%;
+            max-width: 700px;
+          }
+          .work-item--text {
+            @media (min-width: $screen-lg) {
+              opacity: 0;
+              transform: translateY(15px);
+              @include transition(transform 0.3s ease-in-out, opacity 0.15s ease-in);
+            }
+          }
+          .item-title {
+            font-size: 1rem;
+            margin-bottom: 0.125rem;
+            font-weight: $font-weight-semi;
+            @media (min-width: $screen-sm) {
+              font-size: 0.9375rem;
+              margin-bottom: 0.25rem;
+            }
+            @media (min-width: $screen-lg) {
+              font-size: 0.9375rem;
+              margin-bottom: 0.75rem;
+              font-weight: $font-weight-medium;
+            }
+          }
+          .item-description {
+            font-size: 1rem;
+            margin-bottom: 0;
+            line-height: 135%;
+            font-weight: $font-weight-medium;
+            @media (min-width: $screen-sm) {
+              font-size: 0.9375rem;
+            }
+            @media (min-width: $screen-lg) {
+              margin-bottom: 1.125rem;
+              font-size: 1rem;
+              font-weight: $font-weight-semi;
+            }
+          }
+          .item-btn {
+            display: none;
+            cursor: pointer;
+            color: $primary-color;
+            font-size: 0.75rem;
+            padding: 15px 22px;
+            border-radius: 3px;
+            text-transform: uppercase;
+            border: 1px solid $primary-color;
+            background-color: $color-dark;
+            @include transition(all 0.2s ease-in-out);
+            @media (min-width: $screen-lg) {
+              display: inline-block;
+            }
+            &:hover {
+              outline: none;
+              border-color: rgba($primary-color, $alpha: 0.9);
+              background-color: rgba($primary-color, $alpha: 0.1);
+            }
+          }
+        }
+      }
+      &:hover {
+        .work-overlay {
+          opacity: 1;
+          &--content {
+            .work-item--text {
+              -webkit-font-smoothing: antialiased;
+              opacity: 1;
+              transform: translateY(0);
+            }
+            .item-title {
+              transition-delay: 0.1s, 0.1s;
+            }
+            .item-description {
+              transition-delay: 0.2s, 0.2s;
+            }
+            .item-btn {
+              transition-delay: 0.3s, 0.3s;
+            }
+          }
+        }
+      }
+    }
+        
   }
   @media screen and (min-width: 1350px) {
     .port-recent--box-wrap {
