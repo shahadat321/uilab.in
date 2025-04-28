@@ -1468,6 +1468,7 @@ body.nav-open {
       figure {
         margin: 0;
         display: block;
+        width: 100%;
         img {
           opacity: 0.95;
           min-width: 101% !important;
@@ -2180,6 +2181,8 @@ body.nav-open {
       margin: 0;
       display: block;
       position: relative;
+      width: 100%;
+      cursor: pointer;
       img {
         opacity: 0.95;
         min-width: 100% !important;
