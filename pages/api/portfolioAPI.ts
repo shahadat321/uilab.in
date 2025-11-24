@@ -60,11 +60,11 @@ const data = [
   {
     title: "PDF Editor - PDFSimpli.com",
     description: "HTML5, CSS3, SCSS, Bootstrap, PDF.JS, Vanilla JavaScript, Git and Azure DevOps.",
-    href: "https://quickwerx.com/",
+    href: "https://pdfsimpli.com/userdocument/view-b?ofn=sample.pdf&unqn=sample_28a9a88df184489caaeb9d85d25037b7.pdf&frm=pdf&to=doc&npdf=sample_28a9a88df184489caaeb9d85d25037b7.pdf&isadvancefmt=false&fskb=18&refresh=1763987015337",
     imgJPG: "/images/pdf-editor.jpg",
     imgWEBP: "/images/webp/pdf-editor.webp",
     imgAVIF: "/images/avif/pdf-editor.avif",
-    btnTitle: "QuickWerx.com",
+    btnTitle: "PDF Editor - PDFSimpli.com",
   },
   {
     title: "LegalSimpli.com",
