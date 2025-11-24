@@ -2382,6 +2382,42 @@ body.nav-open {
     width: 100%;
   }
 }
+
+.img-new a {
+  // line-height: 40px;
+  // color: $color-dark;
+  // display: inline-flex;
+  // overflow: hidden;
+  position: relative;
+  // text-decoration: none;
+  // vertical-align: bottom;
+  // letter-spacing: -0.15px;
+  color: #64ffda;
+  text-decoration: none;
+  .img {
+    position: absolute;
+    translate: -50% -50%;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1;
+  }
+  &:hover {
+    // color: #000;
+    &::after {
+      opacity: 1;
+      @include animation(anchor-hover-underline 0.5s ease-in-out forwards running);
+      @include transition(transform 0.375s ease-in-out, width 0.5s ease-in-out, opacity 0.5s);
+    }
+    .img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+
 /* Icons Animations */
 @keyframes DividerLineIconRotate {
   0%{

@@ -4,6 +4,7 @@ import { HiArrowsPointingOut } from "react-icons/hi2";
 import Image from "next/image";
 // import Port from "./portAPI";
 // import PortCard from "./portCard";
+import HoverImage from "./HoverImage";
 
 interface IData {
   id: number;
@@ -49,7 +50,7 @@ const Portfolio = () => {
                   <div className="work-overlay--content">
                     <h4 className="work-item--text item-title">Dashboard</h4>
                     <h5 className="work-item--text item-description">
-                      ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, HeadlessUI, Heroicons Git and Azure DevOps.
+                      ReactJS, Redux, RESTful API, JSON, HTML5, TailwindCSS, HeadlessUI, Heroicons Git and Azure DevOps.
                     </h5>
                     <a href="https://quickwerx.com/app/dashboard/" target="_blank" rel="noreferrer" className="work-item--text item-btn" type="button" title="Dashboard" style={{textDecoration: "none"}}>
                       View Project
@@ -75,7 +76,30 @@ const Portfolio = () => {
               <div style={{paddingTop: "50px"}}>
                 <div className="text-center fade-effect fade-up">
                   <h3 className="tagline tagline--long tagline--light">About</h3>
-                  <h3 className="about-sub-heading">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes Enterprise software companies, eCommerce, Media houses, Branding and Advertising agencies.</h3>
+                  {/* <h3 className="about-sub-heading">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes [ Enterprise software companies ], [ eCommerce ], [ Media houses ], [Branding] and [Advertising agencies].</h3> */}
+
+                  <h3 className="about-sub-heading img-new">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes {" "}
+                    <HoverImage title="[ Enterprise software companies ]" image="/images/ws.jpg" />, {" "}
+                    <HoverImage title="[ eCommerce ]" image="/images/port-pdf.jpg" />, {" "}
+                    <HoverImage title="[ Media houses ]" image="/images/port-2.jpg" />, {" "}
+                    <HoverImage title="[ Branding ]" image="/images/qw.jpg" /> and  {" "}
+                    <HoverImage title="[ Advertising agencies ]" image="/images/port-8.jpg" />.
+                  </h3>
+                  
+
+                  {/* <p className="img-new">
+                    I have diverse experience as I have worked with agencies and brands dealing in different industries.
+                    This includes <HoverImage title="Enterprise software companies" image="/images/port-2.jpg" />,{" "}
+                    <HoverImage title="eCommerce" image="/images/port-3.jpg" />,{" "}
+                    <HoverImage title="Healthcare" image="/images/port-4.jpg" />,{" "}
+                    <HoverImage title="Media houses" image="/images/port-5.jpg" />,{" "}
+                    <HoverImage title="Branding" image="/images/port-6.jpg" /> and{" "}
+                    <HoverImage title="Advertising agencies" image="/images/port-7.jpg" />. Each has its own set of
+                    challenges and learnings. This has enabled me to venture into unknown territories without much
+                    thought.
+                  </p> */}
+
+
                 </div>
               </div>
               
