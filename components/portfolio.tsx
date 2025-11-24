@@ -50,7 +50,7 @@ const Portfolio = () => {
                   <div className="work-overlay--content">
                     <h4 className="work-item--text item-title">Dashboard</h4>
                     <h5 className="work-item--text item-description">
-                      ReactJS, Redux, REST API, JSON, HTML5, TailwindCSS, HeadlessUI, Heroicons Git and Azure DevOps.
+                      ReactJS, Redux, RESTful API, JSON, HTML5, TailwindCSS, HeadlessUI, Heroicons Git and Azure DevOps.
                     </h5>
                     <a href="https://quickwerx.com/app/dashboard/" target="_blank" rel="noreferrer" className="work-item--text item-btn" type="button" title="Dashboard" style={{textDecoration: "none"}}>
                       View Project

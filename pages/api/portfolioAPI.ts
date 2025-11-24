@@ -4,7 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 const data = [
   {
     title: "ResumeBuild.com - Resume Builder",
-    description: "ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
+    description: "ReactJS, Redux, RESTful API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
     href: "https://resumebuild.com/app/resume/personal-info",
     imgJPG: "/images/port-resume.jpg",
     imgWEBP: "/images/webp/port-resume.webp",
@@ -19,6 +19,25 @@ const data = [
     imgWEBP: "/images/webp/port-2.webp",
     imgAVIF: "/images/avif/port-2.avif",
     btnTitle: "TheQuint.com",
+  },
+  {
+    title: "PDFSimpli Login Funnel",
+    description: "ReactJS, Redux, RESTful API, JSON, HTML5, Tailwind CSS, Git and Azure DevOps.",
+    href: "https://pdfsimpli.com/app/account/signup",
+    imgJPG: "/images/login-funnel.jpg",
+    imgWEBP: "/images/webp/login-funnel.webp",
+    imgAVIF: "/images/avif/login-funnel.avif",
+    btnTitle: "PDFSimpli Login Funnel",
+  },
+  
+   {
+    title: "ResumeBuild.com",
+    description: "ReactJS, Redux, RESTful API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
+    href: "https://resumebuild.com/",
+    imgJPG: "/images/rb-builder.jpg",
+    imgWEBP: "/images/webp/rb-builder.webp",
+    imgAVIF: "/images/avif/rb-builder.avif",
+    btnTitle: "ResumeBuild.com",
   },
   {
     title: "QuickWerx.com",
@@ -49,31 +68,12 @@ const data = [
   },
   {
     title: "LegalSimpli.com",
-    description: "ReactJS, TypeScript, REST API, JSON, HTML5, SCSS/SASS, Git and Azure DevOps.",
+    description: "ReactJS, TypeScript, RESTful API, JSON, HTML5, SCSS/SASS, Git and Azure DevOps.",
     href: "https://legalsimpli.com/app/template/invoice-form/temp1/invoice-details",
     imgJPG: "/images/legal-simpli.jpg",
     imgWEBP: "/images/webp/legal-simpli.webp",
     imgAVIF: "/images/avif/legal-simpli.avif",
     btnTitle: "LegalSimpli.com",
-  },
-  {
-    title: "PDFSimpli Login Funnel",
-    description: "ReactJS, Redux, REST API, JSON, HTML5, Tailwind CSS, Git and Azure DevOps.",
-    href: "https://pdfsimpli.com/app/account/signup",
-    imgJPG: "/images/login-funnel.jpg",
-    imgWEBP: "/images/webp/login-funnel.webp",
-    imgAVIF: "/images/avif/login-funnel.avif",
-    btnTitle: "PDFSimpli Login Funnel",
-  },
-  
-   {
-    title: "ResumeBuild.com",
-    description: "ReactJS, Redux, REST API, JSON, HTML5, SCSS/SASS, React-Bootstrap, Git and Azure DevOps.",
-    href: "https://resumebuild.com/",
-    imgJPG: "/images/rb-builder.jpg",
-    imgWEBP: "/images/webp/rb-builder.webp",
-    imgAVIF: "/images/avif/rb-builder.avif",
-    btnTitle: "ResumeBuild.com",
   },
   {
     title: "UILab.in",
