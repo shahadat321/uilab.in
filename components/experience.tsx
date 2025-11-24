@@ -15,13 +15,14 @@ const Experience = () => {
                 <p className="exp-number">01</p>
                 <h6>Jun 2019 - Present</h6>
                 <h5>
-                  Tech Lead II <span>(Front-end)</span>
+                Front-end Tech Lead <span>(Front-end)</span>
                 </h5>
-                <p>
+                <p className="company-name">
                   <a href="https://worksimpli.io/" target="_blank" rel="noreferrer nofollow">
                     WorkSimpli Software, LLC.
                   </a>
                 </p>
+                <p className="product">(Sister Concern: CloudBoson Technologies Pvt. Ltd.)</p>
                 <p className="small">
                   <strong>Technology: </strong>
                   {/* HTML5, CSS/SCSS, JavaScript, ReactJS, Angular, JSON, Bootstrap, Git and Azure. */}
