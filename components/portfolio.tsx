@@ -78,7 +78,7 @@ const Portfolio = () => {
                   <h3 className="tagline tagline--long tagline--light">About</h3>
                   {/* <h3 className="about-sub-heading">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes [ Enterprise software companies ], [ eCommerce ], [ Media houses ], [Branding] and [Advertising agencies].</h3> */}
 
-                  <h3 className="about-sub-heading img-new">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 13+ years of great industry experience. This includes {" "}
+                  <h3 className="about-sub-heading img-new">I am a front-end web developer who aims to combine the beauty of design with the latest technology. Training myself every day and pushing my own limits with 12+ years of great industry experience. This includes {" "}
                     <HoverImage title="[ Enterprise software companies ]" image="/images/ws.jpg" />, {" "}
                     <HoverImage title="[ eCommerce ]" image="/images/port-pdf.jpg" />, {" "}
                     <HoverImage title="[ Media houses ]" image="/images/port-2.jpg" />, {" "}

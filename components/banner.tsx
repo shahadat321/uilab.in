@@ -1,6 +1,6 @@
 import { Scene } from "react-scrollmagic-r18";
 import { FaReact, FaSass, FaHtml5, FaCss3Alt, FaBootstrap, FaWordpress, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss, SiAzuredevops, SiJquery, SiStyledcomponents } from "react-icons/si";
+import { SiJavascript, SiTailwindcss, SiAzuredevops, SiJquery, SiStyledcomponents, SiRedux } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 // import { VscJson } from "react-icons/Vsc";
 import { TbApi, TbBrandNextjs } from "react-icons/tb";
@@ -28,6 +28,13 @@ const techLogos = [
     icon: FaReact,
   },
   {
+    name: "Redux",
+    imageUrl: "/images/logos/redux.svg",
+    iconWidth: "h-6 w-6",
+    brandsColor: "h-6 w-6 text-sky-400 icon-redux",
+    icon: SiRedux,
+  },
+  {
     name: "NextJS",
     imageUrl: "/images/logos/nextjs.svg",
     iconWidth: "h-6 w-6",
@@ -35,7 +42,7 @@ const techLogos = [
     icon: TbBrandNextjs,
   },
   {
-    name: "REST API",
+    name: "RESTful API",
     imageUrl: "/images/logos/nextjs.svg",
     iconWidth: "h-6 w-6",
     brandsColor: "h-6 w-6 text-gray-100 icon-api",
